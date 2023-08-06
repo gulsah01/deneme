@@ -13,17 +13,26 @@ public class ArrayList02 {
          */
 
         public static void main(String[] args) {
-            ArrayList<String> isimler2=new ArrayList<>();
-            isimler2.add("Burhan");
-            isimler2.add("Resul");
-            isimler2.add("Nergiz");
-            isimler2.add("Ömer Faruk");
-            isimler2.add("Afife");
-            for (int i = isimler2.size()-1; i >=0 ; i--) {
-                System.out.println("Sondan "+(isimler2.size()-i)+". isim "+isimler2.get(i));
+
+        ArrayList<String> isimler =new ArrayList<>();
+        isimler.add("Mine");
+        isimler.add("Berrin");
+        isimler.add("Gulsum");
+        isimler.add("Nevra");
+        isimler.add("Seda");
+
+
+            for (int i = isimler.size()-1; i >=0 ; i--) {
+                System.out.println("Sondan basa yeni liste : "+(isimler.size()-i)+". isim "+isimler.get(i));
+
+
+            }
+
+            }
+
 
         }
 
-    }
-}
+
+
 
