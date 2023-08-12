@@ -9,19 +9,23 @@ public class forEachLoop3 {
 // Örnek çıktı:
 // Notların ortalaması: 78.5
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Lutfen notlari giriniz : ");
-
-        ArrayList<Double> ortalama=new ArrayList();
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Lutfen ders notlarini giriniz");
+        ArrayList<Double> ortalama=new ArrayList<>();
 
         for (int i = 0; i <5 ; i++) {
-            System.out.println((i+1)+". dersinizin notu");
-            double notlar = scanner.nextDouble();
+            System.out.print((i+1)+". ders notu : ");
+            double notlar=scanner.nextDouble();
             ortalama.add(notlar);
-
+        }
+        double toplam=0;
+        for (double each:ortalama
+        ) {
+        toplam+=each;
 
         }
-
+       double sinavOrtalamasi=toplam/ortalama.size();
+        System.out.print("Sinav Ortalamasi :"+sinavOrtalamasi);
         }
     }
-}
+
