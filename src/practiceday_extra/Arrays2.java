@@ -4,8 +4,12 @@ package practiceday_extra;
      */
 import java.util.Scanner;
 public class Arrays2 {
+    Scanner scan=new Scanner(System.in);
+    /*
+    Kullanıcıdan array'in boyutunu ve elemanlarını alıp array'i oluşturan ve bize dödüren bir method oluşturunuz
+     */
     public static void main(String[] args) {
-        //System.out.println(Arrays.toString(arrayOlustur()));
+     //   System.out.println(Arrays.toString(arrayOlustur()));
     }
     public static int[] arrayOlustur() {
         Scanner scan=new Scanner(System.in);
